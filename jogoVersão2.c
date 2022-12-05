@@ -261,14 +261,6 @@ void Invasor(jogo *Tabuleiro)
         strcpy(NomeArquivo, "LWSS.csv");
         break;
     }
-    // printf("Digite coordenadas para insercao do invasor: ");
-    // scanf("%d %d", LinhaPadrao, ColunaPadrao);
-    // if (LinhaPadrao < 0 || LinhaPadrao > Tabuleiro->numeroLinha || ColunaPadrao < 0 || ColunaPadrao > Tabuleiro->numeroColuna)
-    // {
-    //     printf("Tamanho invalido, invasor nao sera inserido");
-    //     return;
-    // }
-
     Arquivo = fopen(NomeArquivo, "r");
     if (Arquivo == NULL)
     {
